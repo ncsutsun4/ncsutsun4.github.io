@@ -9,7 +9,7 @@ I'm enrolled in the **Masters in Statistics program** and excited to learn more 
 ### More Information
 
 * `R` is ~~not~~ useful.  
-* I hope to experience more <real project> for "Data Scientist".  
+* I hope to experience more __real project__ for "Data Scientist".  
 
 ### Contact me
 
