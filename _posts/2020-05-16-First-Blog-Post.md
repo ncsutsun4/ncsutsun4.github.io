@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Temp
+title: First Blog Post
 ---
 After reading the "Data Science articles," write a blog post to respond to the prompt below:
 What do you think being a data scientist is about?  
