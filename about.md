@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+I'm enrolled in the **Masters in Statistics program** and excited to learn more about how to become a *Data Scientist* using `R`. You may check my [blog](https://ncsutsun4.github.io/about/).
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+* `R` is ~~not~~ useful.  
+* I hope to experience more <real project> for "Data Scientist".  
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[tsun4@ncsu.edu](mailto:email@domain.com)
