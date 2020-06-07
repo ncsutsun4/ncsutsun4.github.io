@@ -1,7 +1,7 @@
 # First vignette project
 
 ## Project description and findings
-This project is to create a vignette (an HTML file with a table of contents) about reading JSON data and exploring it. I found that Montréal Canadiens is one of the teams with top winning ratio in all games, and Edmonton Oilers performed much better in playoffs than in regular seasons.
+This project is to create a vignette (an HTML file with a table of contents) about reading JSON data and exploring it. I found that Montréal Canadiens is one of the teams with top winning ratio in all games, and Edmonton Oilers performed much better in playoffs than in regular seasons. [Here is the link to the page](https://github.com/ncsutsun4/st558_project1/blob/master/README.md)
 
 ## Reflections
 * what would you do differently?
