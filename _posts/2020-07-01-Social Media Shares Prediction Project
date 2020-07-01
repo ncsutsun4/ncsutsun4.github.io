@@ -3,43 +3,27 @@ title: Social media shares prediction project
 author: Tao Sun
 date: 2020-07-01
 categories: [Blogging, Tutorial]
-toc: false
 ---
 
+This project involves creating predictive models and automating Markdown documents. The [output can be found **here**](https://ncsutsun4.github.io/sunproject2/).
 
-outlining your project
-linking to the username.github.io/repo-name site. 
+Project Outline:
+ 1. Exploratory data analysis.
+ 2. Subset data from **Monday** and split data into training and testing sets.
+ 3. Fit linear regression model with the training set and make prediction with testing set.
+ 4. Fit random forest model with the training set and make prediction with testing set.
+ 5. Compare two model prediction accurate rate.
+ 7. Create github markdown file output.
+ 8. Automation the process of 1-7 for **each day** of the week.
+ 9. Create a readme file including all output links.
 
 Some thoughts about this project:
 
 • what would you do differently?
-
+ I think I will reduce sample size while going through the process, because training random forest caused so much time when given large dataset.
 
 • what was the most difficult part for you?
-
+ The most difficult part is how to select best linear model for the prediction because there are so many variables. I also do not know how well my model to be judge as "good". 
 
 • what are your big take-aways from this project?
-
-
-
-
-
-
-In [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/), the image files of [Favicons](https://www.favicon-generator.org/about/) are placed in `assets/img/favicons/`. You may need to replace them with your own. So let's see how to customize these Favicons.
-
-With a square image (PNG, JPG or GIF) in hand, open the site [*Favicon & App Icon Generator*](https://www.favicon-generator.org/) and upload your original image.
-
-![upload-image]({{ "/assets/img/sample/upload-image.png" | relative_url }})
-
-Click button <kbd>Create Favicon</kbd> and wait a moment for the website to generate the icons of various sizes automatically.
-
-![download-icons]({{ "/assets/img/sample/download-icons.png" | relative_url }})
-
-Download the generated package, unzip and delete the following two from the extracted files:
-
-- browserconfig.xml
-- manifest.json
- 
-Now, copy the rest image files (`.PNG` and `.ICO`) to cover the original one in folder `assets/img/favicons/`.
-
-Lastly, don't forget to rebuild your site so that the icon becomes your custom edition.
+ Generally speaking, random forest model works better than linear regression model for prediction purpose.
