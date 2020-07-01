@@ -1,8 +1,45 @@
+---
 title: Social media shares prediction project
+author: Tao Sun
+date: 2020-07-01
+categories: [Blogging, Tutorial]
+toc: false
+---
 
-Once you’ve completed the above tasks you should write a brief blog post outlining your project and linking
-to the username.github.io/repo-name site. You should then also reflect on the process you went through for
-this project. Discuss things like:
+
+outlining your project
+linking to the username.github.io/repo-name site. 
+
+Some thoughts about this project:
+
 • what would you do differently?
+
+
 • what was the most difficult part for you?
+
+
 • what are your big take-aways from this project?
+
+
+
+
+
+
+In [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/), the image files of [Favicons](https://www.favicon-generator.org/about/) are placed in `assets/img/favicons/`. You may need to replace them with your own. So let's see how to customize these Favicons.
+
+With a square image (PNG, JPG or GIF) in hand, open the site [*Favicon & App Icon Generator*](https://www.favicon-generator.org/) and upload your original image.
+
+![upload-image]({{ "/assets/img/sample/upload-image.png" | relative_url }})
+
+Click button <kbd>Create Favicon</kbd> and wait a moment for the website to generate the icons of various sizes automatically.
+
+![download-icons]({{ "/assets/img/sample/download-icons.png" | relative_url }})
+
+Download the generated package, unzip and delete the following two from the extracted files:
+
+- browserconfig.xml
+- manifest.json
+ 
+Now, copy the rest image files (`.PNG` and `.ICO`) to cover the original one in folder `assets/img/favicons/`.
+
+Lastly, don't forget to rebuild your site so that the icon becomes your custom edition.
